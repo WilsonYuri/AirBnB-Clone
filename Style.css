@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Notable&display=swap');
+
+.heading {
+    margin: 0;
+    background-color: papayawhip;
+}
+
+h1{
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 0.15em;
+    margin-left: 20px;
+}
+
+#description {
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+}
+
+.question {
+    margin: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+input{
+    border: none;
+    border-right: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    flex-grow: 1;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 10px 3em;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+#date::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.places{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.placephoto{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: inline;
+}
+
+.nameplace{
+    display: inline;
+    margin: 20px 20px 0 0;
+}
+
+.pros{
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+span{
+    background-color: lightgray;
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin: 5px 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+img{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a::after{
+    text-decoration: none;
+    color: black;
+}
+
+.buttons{
+    display: inline;
+    background-color: lightgray;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.buttons button:nth-of-type(1){
+    border-right: 2px solid gray;
+}
