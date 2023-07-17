@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Notable&display=swap');
 
-.heading img{
-    width: 50px;
-    margin-top: 10px;
-    margin-right: 20px;
+.heading .account{
+    margin-top: 15px;
+    margin-right: 50px;
     display: inline;
     float: right;
+}
+
+#logo{
+    width: 120px;
+    margin: 15px 50px;
+}
+
+
+#login{
+    color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
+    margin-right: 5px;
+}
+
+#signin{
+    background-color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
 }
 
 .heading h1{
@@ -22,13 +40,13 @@
 body {
     font-family: 'Montserrat', sans-serif;  
     margin: 0;
-    background-color: papayawhip;
+    background-color: white;
 }
 
 .question {
     margin: 20px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -39,8 +57,8 @@ body {
     background: none;
     border: none;
     border-right: 1px solid gray;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 7px;
+    margin: 5px 0;
     font-size: 20px;
     text-align: center;
     color: gray;
@@ -98,7 +116,7 @@ body {
 }
 
 .pros span{
-    background-color: rgb(212, 198, 175);
+    background-color: lightgray;
     padding: 5px 1em;
     border-radius: 5px;
     margin: 5px 5px;
@@ -119,7 +137,7 @@ body {
 
 
 .buttons{
-    background-color: rgb(212, 198, 175);
+    background-color: lightgray;
     padding: 15px 15px;
     border-radius: 15px;
     margin: 10px 2px 2px 2px;
