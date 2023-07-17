@@ -4,7 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link href="Style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Notable&display=swap');
+
+        .heading .account{
+            margin-top: 15px;
+            margin-right: 50px;
+            display: inline;
+            float: right;
+        }
+
+        #logo{
+            width: 120px;
+            margin: 15px 50px;
+        }
+
+
+        #login{
+            color: #ff385c;
+            border-color: #ff385c;
+            padding: 6px 1.5em;
+            margin-right: 5px;
+        }
+
+        #signin{
+            background-color: #ff385c;
+            border-color: #ff385c;
+            padding: 6px 1.5em;
+        }
+
+        .heading h1{
+            font-family: 'Notable', sans-serif;
+            letter-spacing: 0.15em;
+            margin-left: 20px;
+            display: inline;
+        }
+
+        #description {
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;  
+            margin: 0;
+            background-color: white;
+        }
+
+        .question {
+            margin: 20px;
+            border: solid 2px black;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .question input{
+            background: none;
+            border: none;
+            border-right: 1px solid gray;
+            padding: 7px;
+            margin: 5px 0;
+            font-size: 20px;
+            text-align: center;
+            color: gray;
+            flex-grow: 1;
+        }
+
+        .question input:focus{
+            outline: none;
+        }
+
+        .question button{
+            color: gray;
+            flex-grow: 1;
+
+        }
+
+        #date::-webkit-calendar-picker-indicator {
+            display: none;
+        }
+
+        #homes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .cards{
+            border: 2px solid black;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .placephoto{
+            height: 200px;
+            width: 350px;
+            margin: 2px 2px;
+            border-radius: 15px;
+            object-fit: cover;
+
+        }
+
+        .nameplace{
+            display: block;
+            margin: 5px 0 0 20px;
+        }
+
+        .pros{
+            width: 350px;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .pros span{
+            background-color: lightgray;
+            padding: 5px 1em;
+            border-radius: 5px;
+            margin: 5px 5px;
+            text-align: center;
+        }
+
+        .location{
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin: 5px 0 10px 20px;
+        }
+
+        .location::after{
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .buttons{
+            background-color: lightgray;
+            padding: 15px 15px;
+            border-radius: 15px;
+            margin: 10px 2px 2px 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        button{
+            border: none;
+            background: none;
+            padding: auto auto;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            flex-grow: 1;
+        }
+    </style>
     <title>Airbnb - Home</title>
 </head>
 <body>
