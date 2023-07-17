@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Notable&display=swap');
 
-.heading {
-    margin: 0;
+.heading .account{
+    margin-top: 15px;
+    margin-right: 50px;
+    display: inline;
+    float: right;
 }
 
-h1{
+#logo{
+    width: 120px;
+    margin: 15px 50px;
+}
+
+
+#login{
+    color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
+    margin-right: 5px;
+}
+
+#signin{
+    background-color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
+}
+
+.heading h1{
     font-family: 'Notable', sans-serif;
     letter-spacing: 0.15em;
     margin-left: 20px;
+    display: inline;
 }
 
 #description {
@@ -17,25 +40,25 @@ h1{
 body {
     font-family: 'Montserrat', sans-serif;  
     margin: 0;
-    background-color: papayawhip;
+    background-color: white;
 }
 
 .question {
     margin: 20px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-input{
+.question input{
     background: none;
     border: none;
     border-right: 1px solid gray;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 7px;
+    margin: 5px 0;
     font-size: 20px;
     text-align: center;
     color: gray;
@@ -63,19 +86,20 @@ input{
     flex-wrap: wrap;
 }
 
-.places{
+.cards{
     border: 2px solid black;
     border-radius: 15px;
     margin: 20px;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .placephoto{
     height: 200px;
-    width: 300px;
-    margin: 5px;
+    width: 350px;
+    margin: 2px 2px;
     border-radius: 15px;
     object-fit: cover;
+
 }
 
 .nameplace{
@@ -83,11 +107,19 @@ input{
     margin: 5px 0 0 20px;
 }
 
+.pros{
+    width: 350px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .pros span{
-    background-color: rgb(212, 198, 175);
-    padding: 5px 50px;
+    background-color: lightgray;
+    padding: 5px 1em;
     border-radius: 5px;
-    margin: 10px 20px;
+    margin: 5px 5px;
     text-align: center;
 }
 
@@ -105,19 +137,22 @@ input{
 
 
 .buttons{
-    background-color: rgb(212, 198, 175);
+    background-color: lightgray;
     padding: 15px 15px;
     border-radius: 15px;
-    margin: 20px;
-}
-
-.buttons button:nth-of-type(1){
-    border-right: 2px solid gray;
+    margin: 10px 2px 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 button{
     border: none;
     background: none;
-    padding: 10px 50px;
+    padding: auto auto;
     font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    flex-grow: 1;
 }
+

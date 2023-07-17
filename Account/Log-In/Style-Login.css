@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+    background-color: white;
+}
+
+#category{
+    margin-left: 15px;
+}
+
+.heading .account{
+    margin-top: 15px;
+    margin-right: 50px;
+    display: inline;
+    float: right;
+}
+
+#logo{
+    width: 120px;
+    margin: 15px 50px;
+}
+
+
+#login{
+    color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
+    margin-right: 5px;
+}
+
+#login:hover{
+    color: #ff385c;
+    border-color: #ff385c;
+    background-color: lightgray;
+    padding: 6px 1.5em;
+    margin-right: 5px;
+}
+
+.signup{
+    background-color: #ff385c;
+    border-color: #ff385c;
+    padding: 6px 1.5em;
+    color: white;
+}
+
+.margins{
+    margin: 1em 0;
+}
+
+#dateofbirth{
+    text-align: center;
+    margin-left: 1em;
+}
+
+#dateofbirth::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.displays{
+    display: block;
+}
+
+.signin-button{
+    width: 250px;
+    height: 40px;
+    margin: 5px 20px;
+
+}
+
+.SignupOptions{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Google{
+    width: 250px;
+    height: 40px;
+    margin: 5px 20px;
+}
+
+.divider{
+    margin: 20px 30%;
+}
