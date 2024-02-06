@@ -4,6 +4,12 @@ body {
     background-color: white;
 }
 
+#logo{
+    width: 120px;
+    margin: 15px 50px;
+    display: block;
+}
+
 #category{
     margin-left: 15px;
 }
@@ -13,11 +19,6 @@ body {
     margin-right: 50px;
     display: inline;
     float: right;
-}
-
-#logo{
-    width: 120px;
-    margin: 15px 50px;
 }
 
 

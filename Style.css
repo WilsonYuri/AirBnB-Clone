@@ -4,12 +4,13 @@
     margin-top: 15px;
     margin-right: 50px;
     display: inline;
-    float: right;
+    float: right
 }
 
 #logo{
     width: 120px;
     margin: 15px 50px;
+    display: inline-block;
 }
 
 
